@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
-import Post from "./components/post/post";
+import Post from "./components/post/Post";
 
 class App extends Component {
   render() {
