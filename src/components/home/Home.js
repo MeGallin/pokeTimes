@@ -15,11 +15,11 @@ class Home extends Component {
   //   });
   // }
   render() {
-    // console.log(this.props);
+    console.log(this.props);
     const { posts } = this.props;
     const postList = posts.length ? (
       posts.map(post => {
-        //  console.log(post.id);
+        // console.log(post.id);
         return (
           <React.Fragment key={post.id}>
             <div className="post card">
@@ -40,6 +40,7 @@ class Home extends Component {
     return (
       <div className="container">
         <h4 className="center">Home </h4>
+
         {postList}
       </div>
     );
